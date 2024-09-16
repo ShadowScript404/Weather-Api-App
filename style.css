@@ -1,0 +1,97 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: hsl(220, 15%, 15%); /* Darker navy blue background */
+    color: hsl(50, 100%, 85%); /* Softer off-white for text */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weatherform {
+    margin: 40px;
+    text-align: center;
+}
+
+.cityInput {
+    padding: 15px;
+    font-size: 1.8rem;
+    font-weight: normal;
+    border: 3px solid hsl(220, 30%, 50%); /* Darker blue-gray border */
+    border-radius: 5px;
+    margin: 20px;
+    background-color: hsl(220, 20%, 20%); /* Darker navy background */
+    color: hsl(50, 100%, 85%); /* Softer off-white for input text */
+    width: 350px;
+}
+
+button[type="submit"] {
+    padding: 15px 25px;
+    font-size: 1.5rem;
+    background-color: hsl(120, 60%, 45%); /* Deep green for button */
+    color: hsl(0, 0%, 95%); /* Light cream color for button text */
+    border: 2px solid hsl(120, 40%, 35%); /* Darker green border */
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: hsl(120, 70%, 40%); /* Slightly brighter green on hover */
+    color: hsl(60, 100%, 95%); /* Brighter text */
+    border-color: hsl(120, 50%, 50%); /* Brighter green border */
+}
+
+.card {
+    background: linear-gradient(180deg, hsl(210, 40%, 25%), hsl(240, 70%, 35%)); /* Gradient with deep blue and violet */
+    padding: 40px;
+    box-shadow: 0px 0px 10px hsl(240, 50%, 10%); /* Softer blue shadow */
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 10px 0;
+    color: hsl(50, 100%, 90%); /* Light cream-yellow color */
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 8px 0;
+    color: hsl(50, 100%, 80%); /* Softer cream-yellow */
+}
+
+.cityDisplay, .temperature {
+    font-size: 2.8rem;
+    color: hsl(50, 100%, 85%); /* Light cream-yellow */
+    margin-bottom: 20px;
+}
+
+.humidityDisplay {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: hsl(160, 60%, 65%); /* Soft green for humidity */
+}
+
+.descDisplay {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.7rem;
+    color: hsl(50, 100%, 90%); /* Light cream-yellow */
+}
+
+.weatherEmoji {
+    margin: 10px 0;
+    font-size: 5rem;
+    color: hsl(35, 100%, 75%); /* Warmer soft orange for emoji */
+}
+
+.errorDisplay {
+    font-size: 2rem;
+    font-weight: bold;
+    color: hsl(0, 70%, 55%); /* Deep red for error */
+}
